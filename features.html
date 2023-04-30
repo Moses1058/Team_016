@@ -1,68 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Photosnap Website Challenge</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./features.css">
+    <title>Features</title>
 </head>
 <body>
-
-  Stories
-  Features
-  Pricing
-
-  Get an invite
-
-  Features
-
-  We make sure all of our features are designed to be loved by every aspiring and even 
-  professional photograpers who wanted to share their stories.
-
-  100% Responsive
-
-  No matter which the device you’re on, our site is fully responsive and stories 
-  look beautiful on any screen.
-
-  No Photo Upload Limit
-
-  Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share 
-  all of your stories in one go.
-
-  Available to Embed
-
-  Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google 
-  Maps, and more. 
-
-  Custom Domain
-
-  With Photosnap subscriptions you can host your stories on your own domain. You can 
-  also remove our branding!
-
-  Boost Your Exposure
-
-  Users that viewed your story or gallery can easily get notifed of new and featured 
-  stories with our built in mailing list.
-
-  Drag & Drop Image
-
-  Easily drag and drop your image and get beautiful shots everytime. No over the top 
-  tooling to add friction to creating stories.
-
-  We're in Beta. Get your invite today!
-  
-  Get an invite
-
-  Home
-  Stories
-  Features
-  Pricing
-
-  Get an invite
-
-  Copyright 2019. All Rights Reserved
-
+    <header>
+        <div class="menu">
+            <div class="menu-images" >
+                <img src="./assets/shared/desktop/logo.svg" alt="logo" class="logo">
+                <div class="button" id="button">
+                    <button class="menu-button"><img src="./assets/shared/mobile/menu.svg" alt="menu" class="menu-icon"></button>
+                    <button class="close-button"><img src="./assets/shared/mobile/close.svg" alt="close" class="close"></button>
+                </div>
+            </div>
+            <div class="menu-list" id="nav">
+                <div class="pages">
+                    <a href="#stories">STORIES</a>
+                    <a href="#features">FEATURES</a>
+                    <a href="./pricing.html">PRICING</a>
+                    <div class="line"></div>
+                </div>
+                <button class="invite">GET AN INVITE</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cont-one">
+            <img src="./assets/features/mobile/hero.jpg" alt="hero" class="mobile-hero">
+            <img src="./assets/features/tablet/hero.jpg" alt="hero" class="tablet-hero">
+            <img src="./assets/features/desktop/hero.jpg" alt="hero" class="desktop-hero" >
+            <div class="cont-one-content">
+                <div class="colr-line"></div>
+                <h1>FEATURES</h1>
+                <p>We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.</p>
+            </div>
+        </div>
+        <div class="features-cont">
+            <div class="cont">
+                <img src="./assets/features/desktop/responsive.svg" alt="responsive">
+                <h3>100% Responsive</h3>
+                <p>No matter which the device you're on, our site is fully responsive and stories look beautiful on any screen.</p>
+            </div>
+            <div class="cont">
+                <img src="./assets/features/desktop/no-limit.svg" alt="no-limit" class="limit">
+                <h3>No Photo Upload Limit</h3>
+                <p>Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.</p>
+            </div>
+            <div class="cont">
+                <img src="./assets/features/desktop/embed.svg" alt="embed">
+                <h3>Available to Embed</h3>
+                <p class="embed">Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more.</p>
+            </div>
+            <div class="cont">
+                <img src="./assets/features/desktop/custom-domain.svg" alt="custom-domain">
+                <h3>Custom Domain</h3>
+                <p>With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!</p>
+            </div>
+            <div class="cont">
+                <img src="./assets/features/desktop/boost-exposure.svg" alt="boost-exposure">
+                <h3>Boost Your Exposure</h3>
+                <p>Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list.</p>
+            </div>
+            <div class="cont">
+                <img src="./assets/features/desktop/drag-drop.svg" alt="drag-drop">
+                <h3>Drag & Drop Image</h3>
+                <p>Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories.</p>
+            </div>
+        </div>
+        <div class="invite-cont">
+            <div class="colr-line2"></div>
+            <div class="invite-header">
+                <h1>We're in beta.</h1>
+                <h1>Get your invite</h1>
+                <h1> today!</h1>
+            </div>
+            <button class="invite-bottom">
+                GET AN INVITE
+                <img src="./assets/shared/desktop/arrow.svg" alt="arrow">
+            </button>
+        </div>
+    </main>
+    <footer>
+        <img src="./assets/shared/desktop/logo.svg" alt="logo" class="ft-logo">
+        <div class="foot">
+            <div class="nav">
+                <div class="contact">
+                    <img src="./assets/shared/desktop/facebook.svg" alt="facebook">
+                    <img src="./assets/shared/desktop/youtube.svg" alt="youtube">
+                    <img src="./assets/shared/desktop/twitter.svg" alt="twitter">
+                    <img src="./assets/shared/desktop/pinterest.svg" alt="pinterest">
+                    <img src="./assets/shared/desktop/instagram.svg" alt="instagram">
+                </div>
+                <div class="nav-bar">
+                    <a href="#home">Home</a>
+                    <a href="#stories">Stories</a>
+                    <a href="#features">Features</a>
+                    <a href="./pricing.html">Pricing</a>
+                </div>
+            </div>
+            <div class="foot-btm">
+                <button class="invite-bottom">
+                    GET AN INVITE
+                    <img src="./assets/shared/desktop/arrow.svg" alt="arrow">
+                </button>
+                <spam class="copyright">
+                    Copyright 2019. All Rights Reserved
+                </spam>
+            </div>
+        </div>
+    </footer>
+    <script src="./nav.js"></script>
 </body>
 </html>
