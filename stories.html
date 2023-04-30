@@ -1,126 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Photosnap Website Challenge</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./stories.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>stories</title>
 </head>
 <body>
-
-  Stories
-  Features
-  Pricing
-
-  Get an invite
-
-  Last month's featured story
-
-  Hazy full moon of Appalachia
-  March 2nd 2020
-  by John Appleseed
-
-  The dissected plateau area, while not actually made up of geological mountains, 
-  is popularly called "mountains," especially in eastern Kentucky and West Virginia, 
-  and while the ridges are not high, the terrain is extremely rugged.
-
-  Read the story
-
-  April 16th 2020
-  The Mountains
-  by John Appleseed
-  Read Story
-
-  April 14th 2020
-  Sunset Cityscapes
-  by Benjamin Cruz
-  Read Story
-
-  April 11th 2020
-  18 Days Voyage
-  by Alexei Borodin
-  Read Story
-
-  April 9th 2020
-  Architecturals
-  by Samantha Brooke
-  Read Story
-
-  April 7th 2020
-  World Tour 2019
-  by Timothy Wagner
-  Read Story
-
-  April 7th 2020
-  World Tour 2019
-  by Timothy Wagner
-  Read Story
-
-  April 3rd 2020
-  Unforeseen Corners
-  by William Malcolm
-  Read Story
-
-  March 29th 2020
-  King on Africa: Part II
-  by Tim Hillenburg
-  Read Story
-
-  March 21st 2020
-  The Trip to Nowhere
-  by Felicia Rourke
-  Read Story
-
-  March 19th 2020
-  Rage of The Sea
-  by Mohammed Abdul
-  Read Story
-
-  March 16th 2020
-  Running Free
-  by Michelle
-  Read Story
-
-  March 11th 2020
-  Behind the Waves
-  by Lamarr Wilson
-  Read Story
-
-  March 9th 2020
-  Calm Waters
-  by Samantha Brooke
-  Read Story
-
-  March 5th 2020
-  The Milky Way
-  by Benjamin Cruz
-  Read Story
-
-  March 4th 2020
-  Night at The Dark Forest
-  by  Mohammed Abdul
-  Read Story
-
-  March 1st 2020
-  Somwarpet’s Beauty
-  by Michelle
-  Read Story
-
-  February 25th 2020
-  Land of Dreams
-  by William Malcolm
-  Read Story
-
-  Home
-  Stories
-  Features
-  Pricing
-
-  Get an invite
-
-  Copyright 2019. All Rights Reserved
-
+    <div class="header">
+        <div class="main-menu">
+            <div class="logo">
+                <img class="header-logo" src="./assets/shared/desktop/logo.svg" alt="logo">
+            </div>
+            <div class="logo-menu">
+                <img  class= "menu" src="./assets/shared/mobile/menu.svg" alt="menu">
+                <img class="close" src="./assets/shared/mobile/close.svg" alt="close">
+            </div>
+       </div>
+       <div class="hidden-menu">
+            <div class="header-menu">
+                <h1 class="header-text">STORIES</h1>
+                <h1 class="header-text">FEATURES</h1>
+                <h1 class="header-text">PRICING</h1>
+            </div>
+            <hr class="top-line">
+            <button class="button">GET AN INVITE</button>
+        </div>
+    </div>
+    <div class="black-box">
+         <img class="mobile-moon-poto" src="./assets/stories/mobile/moon-of-appalacia.jpg" alt="moon-photo">
+         <div class="black-text-container">
+            <h1 class="story" >LAST MONTH’S FEATURED STORY</h1>
+            <h2 class="full-moon" >HAZY FULL MOON OF APPALACHIA</h2>
+            <p class="info" >March 2nd 2020 <span> by John Appleseed</span></p>
+            <p class="info" id="paragraph-info">The dissected plateau area, while not actually made up of geological mountains, is popularly called "mountains," especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.</p>
+            <div class="black-box-footer">
+                <h1 class="read-story">READ  THE STORY</h1>
+                <div class="arrow-box">
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="photo-container">
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/mountains.jpg" alt="mountains">
+                <img class="desktop-photo" src="./assets/stories/desktop/mountains.jpg" alt="">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">April 16th 2020</h1>
+                <h1 class="photo-name">The Mountains</h1>
+                <h1 class="avtor">by John Appleseed</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+                </div>
+            </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/cityscapes.jpg" alt="city">
+                <img class="desktop-photo" src="./assets/stories/desktop/cityscapes.jpg" alt="city">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">April 14th 2020</h1>
+                <h1 class="photo-name">Sunset Cityscapes</h1>
+                <h1 class="avtor">by Benjamin Cruz</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/18-days-voyage.jpg" alt="voyage">
+                <img class="desktop-photo" src="./assets/stories/desktop/18-days-voyage.jpg" alt="voyage">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">April 11th 2020</h1>
+                <h1 class="photo-name">18 Days Voyage</h1>
+                <h1 class="avtor">by Alexei Borodin</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/architecturals.jpg" alt="architecturals">
+                <img class="desktop-photo" src="./assets/stories/desktop/architecturals.jpg" alt="architecturals">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">April 9th 2020</h1>
+                <h1 class="photo-name">Architecturals</h1>
+                <h1 class="avtor">by Samantha Brooke</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/world-tour.jpg" alt="tour">
+                <img class="desktop-photo" src="./assets/stories/desktop/world-tour.jpg" alt="tour">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">April 7th 2020</h1>
+                <h1 class="photo-name">World Tour 2019</h1>
+                <h1 class="avtor">by Timothy Wagner</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/unforeseen-corners.jpg" alt="corners">
+                <img class="desktop-photo" src="./assets/stories/desktop/unforeseen-corners.jpg" alt="corner">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">April 3rd 2020</h1>
+                <h1 class="photo-name">Unforeseen Corners</h1>
+                <h1 class="avtor">by William Malcolm</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/king-on-africa.jpg" alt="africa">
+                <img class="desktop-photo" src="./assets/stories/desktop/king-on-africa.jpg" alt="africa">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">March 29th 2020</h1>
+                <h1 class="photo-name">TKing on Africa: Part II</h1>
+                <h1 class="avtor">by Tim Hillenburg</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/trip-to-nowhere.jpg" alt="trip-to-nowhere">
+                <img class="desktop-photo" src="./assets/stories/desktop/trip-to-nowhere.jpg" alt="trip-to-nowhere">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">March 21st 2020</h1>
+                <h1 class="photo-name">The Trip to Nowhere</h1>
+                <h1 class="avtor">by Felicia Rourke</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/rage-of-the-sea.jpg" alt="sea">
+                <img class="desktop-photo" src="./assets/stories/desktop/rage-of-the-sea.jpg" alt="sea">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">March 19th 2020</h1>
+                <h1 class="photo-name">Rage of The Sea</h1>
+                <h1 class="avtor">by Mohammed Abdul</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo" id="horse">
+                <img  class="running-free" src="./assets/stories/mobile/running-free.jpg" alt="running">
+                <img class="desktop-photo" id="desktop-horse-photo" src="./assets/stories/desktop/running-free.jpg" alt="running">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">March 16th 2020</h1>
+                <h1 class="photo-name">Running Free</h1>
+                <h1 class="avtor">by Michelle</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/behind-the-waves.jpg" alt="behind-the-waves">
+                <img class="desktop-photo" src="./assets/stories/desktop/behind-the-waves.jpg" alt="behind-the-waves">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">March 11th 2020</h1>
+                <h1 class="photo-name">Behind the Waves</h1>
+                <h1 class="avtor">by Lamarr Wilson</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/calm-waters.jpg" alt="waters">
+                <img class="desktop-photo" src="./assets/stories/desktop/calm-waters.jpg" alt="waters">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">March 9th 2020</h1>
+                <h1 class="photo-name">Calm Waters</h1>
+                <h1 class="avtor">by Samantha Brooke</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/milky-way.jpg" alt="milky-way">
+                <img class="desktop-photo" src="./assets/stories/desktop/milky-way.jpg" alt="milky-way">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">March 5th 2020</h1>
+                <h1 class="photo-name">The Milky Way</h1>
+                <h1 class="avtor">by Benjamin Cruz</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/dark-forest.jpg" alt="dark-forest">
+                <img class="desktop-photo" src="./assets/stories/desktop/dark-forest.jpg" alt="dark-forest">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">March 4th 2020</h1>
+                <h1 class="photo-name">Night at The Dark Forest</h1>
+                <h1 class="avtor">by  Mohammed Abdul</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/somwarpet.jpg" alt="somwarpet">
+                <img class="desktop-photo" src="./assets/stories/desktop/somwarpet.jpg" alt="somwarpet">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">March 1st 2020</h1>
+                <h1 class="photo-name">Somwarpet’s Beauty</h1>
+                <h1 class="avtor">by Michelle</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="background-photo">
+                <img class="mobile-photo" src="./assets/stories/mobile/land-of-dreams.jpg" alt="dreams">
+                <img class="desktop-photo" src="./assets/stories/desktop/land-of-dreams.jpg" alt="dreams">
+            </div>
+            <div class="photo-text">
+                <h1 class="date">February 25th 2020</h1>
+                <h1 class="photo-name">Land of Dreams</h1>
+                <h1 class="avtor">by William Malcolm</h1>
+                <hr class="underline">
+                <div class="text-footer">
+                    <h1 class="read-story">READ STORY</h1>
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-container">
+        <div class="logo">
+            <img src="./assets/shared/desktop/logo_white.png" alt="logo_white">
+            <div class="social-logo">
+                <img class="social-logo-details" src="./assets/shared/desktop/facebook_white.svg" alt="facebook">
+                <img class="social-logo-details" src="./assets/shared/desktop/youtube_white.svg" alt="youtube">
+                <img class="social-logo-details" src="./assets/shared/desktop/twitter_white.svg" alt="twitte">
+                <img  class="social-logo-details"src="./assets/shared/desktop/pinterest_white.svg" alt="pinterest">
+                <img  class="social-logo-details"src="./assets/shared/desktop/instagram_white.svg" alt="instagram">
+            </div>
+        </div>
+            <div class="page">
+                <h1>Home</h1>
+                <h1>Stories</h1>
+                <h1>Features</h1>
+                <h1>Pricing</h1>
+            </div>
+            <div class="left-text">
+            <div class="footer-arrow-box">
+                <h1 class="invite">GET AN INVITE</h1>
+                <div class="footer-box">
+                    <svg stroke="white" xmlns="http://www.w3.org/2000/svg" width="43" height="14" ><g fill="none" fill-rule="evenodd" ><path d="M0 7h41.864M35.428 1l6 6-6 6" ></path></g></svg>
+                </div>
+            </div>
+            <div class="copyright-date">Copyright 2019. All Rights Reserved</div>
+        </div>
+    </footer>
+    <script src="./assets/stories/stories.js"></script>
 </body>
 </html>
