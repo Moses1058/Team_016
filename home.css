@@ -1,0 +1,722 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-size: contain;
+    background-color: #F2F2F2;
+    ;
+}
+
+.main_div {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo_logo_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_menu_div {
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo_div {
+    padding-left: 24px;
+    margin-top: 28px;
+}
+
+.menu_div {
+    padding-right: 24px;
+    margin-top: 25px;
+}
+
+.text_div {
+    height: 100%;
+    background-color: #000000;
+    padding-left: 33px;
+}
+
+.heading_1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3.33333px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 72px;
+}
+
+.paragraph_1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-top: 16px;
+}
+
+.heading_2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.text_arrow_div1 {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 72px;
+}
+
+.arrow_div {
+    filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(111deg) brightness(105%) contrast(111%);
+}
+
+
+.white_div1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding-left: 33px;
+}
+
+.heading_3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3.33333px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 72px;
+}
+
+.paragraph_2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-top: 16px;
+}
+
+.heading_4 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.arrow_2 {
+    left: 75%;
+    right: 0.08%;
+    top: 46.88%;
+    bottom: 46.88%;
+    border: 1px solid #FFFFFF;
+}
+
+.text_arrow_div2 {
+    display: flex;
+    gap: 26px;
+    margin-top: 23px;
+    margin-bottom: 72px;
+    align-items: center;
+}
+
+.white_div2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding-left: 33px;
+
+}
+
+.heading_5 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3.33333px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 92px;
+}
+
+.paragraph_3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-top: 16px;
+}
+
+.heading_6 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.text_arrow_div3 {
+    display: flex;
+    gap: 26px;
+    margin-bottom: 92px;
+    align-items: center;
+}
+
+.container_0 {
+    padding: 236px 0 40px 33px;
+    position: relative;
+    background-image: url(./assets/stories/mobile/mountains.jpg);
+}
+
+.content_0 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+
+.heading_7 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.author_div {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    margin-top: 4px;
+}
+
+
+.read_story {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+
+}
+
+.linear_div {
+    width: 310px;
+    height: 1px;
+    left: 33px;
+    top: 2463px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.arrow_4 {
+    filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(111deg) brightness(105%) contrast(111%);
+}
+
+.text_arrow_div4 {
+    display: flex;
+    align-items: flex-end;
+    gap: 177px;
+    margin-top: 16px;
+}
+
+
+.container_1 {
+    padding: 210px 0 40px 33px;
+    position: relative;
+    background-image: url(./assets/stories/mobile/cityscapes.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+.content_1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.heading_9 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.author_div1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.linear_div1 {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    width: 310px;
+    height: 1px;
+}
+
+.read_story1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.text_arrow_div5 {
+    display: flex;
+    align-items: flex-end;
+    gap: 177px;
+}
+
+.arrow_5 {
+    filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(111deg) brightness(105%) contrast(111%);
+}
+
+.background_div1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(./Image.png);
+    background-repeat: no-repeat;
+    background-size: 375px 375px;
+}
+
+.container_2 {
+    padding: 214px 0 40px 33px;
+    position: relative;
+    background-image: url(./assets/stories/mobile/18-days-voyage.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.content_2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.heading_11 {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.author_div2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}
+
+.read_story2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.linear_div2 {
+    width: 310px;
+    height: 1px;
+    left: 33px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-top: 16px;
+}
+
+.text_arrow_div6 {
+    display: flex;
+    align-items: flex-end;
+    gap: 177px;
+    margin-top: 20px;
+}
+
+.arrow_6 {
+    filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(111deg) brightness(105%) contrast(111%);
+}
+
+.container_3 {
+    padding: 197px 0 40px 33px;
+    position: relative;
+    background-image: url(./assets/stories/mobile/architecturals.jpg);
+    background-repeat: no-repeat;
+}
+
+.box::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%);
+}
+
+.content_3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.heading_13 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+
+.author_div3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.linear_div3 {
+    width: 310px;
+    height: 1px;
+    left: 33px;
+    top: 3588px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+
+.read_story3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.arrow_7 {
+    filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(111deg) brightness(105%) contrast(111%);
+}
+
+.text_arrow_div7 {
+    display: flex;
+    align-items: center;
+    gap: 177px;
+
+}
+
+.white_div3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.responsive_img {
+    width: 71px;
+    height: 71px;
+    margin-top: 80px;
+    margin-bottom: 48px;
+}
+
+.whole_responsive {
+    Font-family: DM Sans;
+    Font-style: Bold;
+    font-weight: 700;
+    Font-size: 18px;
+    Line-height: 25px;
+    Line-height: 107%;
+    color: solid #000000;
+    margin-bottom: 16px;
+}
+
+.text_div8 {
+    width: 310px;
+    height: 75px;
+    text-align: center;
+    Font-family: DM Sans;
+    Font-style: Regular;
+    font-weight: 400;
+    Font-size: 15px;
+    Line-height: 25px;
+    Line-height: 128%;
+    color: solid #000000;
+    opacity: 60%;
+
+}
+
+.infinity_img {
+    width: 71px;
+    height: 36px;
+    margin-top: 56px;
+}
+
+.no_limit {
+    Font-family: DM Sans;
+    Font-style: Bold;
+    font-weight: 700;
+    Font-size: 18px;
+    Line-height: 25px;
+    Line-height: 107%;
+    color: solid #000000;
+    margin-top: 66px;
+}
+
+.text_div9 {
+    Font-family: DM Sans;
+    font-style: Regular;
+    width: 310px;
+    height: 75px;
+    text-align: center;
+    font-family: 400;
+    font-size: 15px;
+    line-height: 25px;
+    line-height: 128%;
+    opacity: 60%;
+    margin-bottom: 56px;
+
+}
+
+.horn_img {
+    width: 71px;
+    height: 72px;
+}
+
+.available_text {
+    Font-family: DM Sans;
+    Font-style: Bold;
+    font-weight: 700;
+    Font-size: 18px;
+    Line-height: 25px;
+    Line-height: 107%;
+    color: solid #000000;
+    margin-top: 48px;
+}
+
+.text_div10 {
+    width: 310px;
+    height: 75px;
+    text-align: center;
+    Font-family: DM Sans;
+    font-style: Regular;
+    font-family: 400;
+    font-size: 15px;
+    line-height: 25px;
+    line-height: 128%;
+    opacity: 60%;
+    margin-bottom: 80px;
+    margin-top: 16px;
+}
+
+.black_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 57px 103px 56px 130px;
+    background-color: #000000;
+}
+
+.logo_div1 {
+    display: flex;
+    color: solid #FFFFFF;
+
+}
+
+.compose_div {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.imgs_div {
+    display: flex;
+    gap: 15px;
+    padding-left: 8px;
+}
+
+.facebook_logo {
+    display: none;
+}
+
+.youtube_logo {
+    display: none;
+}
+
+.twitter_logo {
+    display: none;
+}
+
+.pinterest_logo {
+    display: none;
+}
+
+.instagram_logo {
+    display: none;
+}
+
+
+.paragraphs_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.home {
+    Font-family: DM Sans;
+    Font-style: Bold;
+    font-weight: 700;
+    Font-size: 12px;
+    Line-height: 16px;
+    Line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.stories {
+    Font-family: DM Sans;
+    Font-style: Bold;
+    font-weight: 700;
+    Font-size: 12px;
+    Line-height: 16px;
+    Line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.features {
+    Font-family: DM Sans;
+    Font-style: Bold;
+    font-weight: 700;
+    Font-size: 12px;
+    Line-height: 16px;
+    Line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.pricing {
+    Font-family: DM Sans;
+    Font-style: Bold;
+    font-weight: 700;
+    Font-size: 12px;
+    Line-height: 16px;
+    Line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.text_div11 {
+    display: flex;
+    color: white;
+    margin-top: 120px;
+    gap: 22px;
+}
+
+.invite_div {
+    width: 108px;
+    height: 16px;
+    Font-family: DM Sans;
+    Font-style: Bold;
+    font-weight: 700;
+    Font-size: 12px;
+    Line-height: 16px;
+    Line-height: 100%;
+    letter-spacing: 1px;
+
+}
+
+.arrow_div8 {
+    width: 42px;
+    filter: invert(100%) sepia(0%) saturate(7468%) hue-rotate(111deg) brightness(105%) contrast(111%);
+}
+
+.allrights {
+    width: 255px;
+    margin-top: 34px;
+    color: white;
+    font-family: DM Sans;
+    font-weight: 400;
+    Font-style: Regular;
+    Font-size: 15px;
+    Line-height: 20px;
+    Line-height: 100%;
+    opacity: 50.25%;
+}
