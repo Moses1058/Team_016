@@ -20,6 +20,16 @@ body{
     gap:60px
 }
 
+.header-text{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-text:hover{
+    color: darkgray;
+}
+
 .main-menu{
     width: 100%;
     display: flex;
@@ -163,9 +173,9 @@ letter-spacing: 2px;
 }
 
 .photo-text{
-    width: 292px;
+    /* width: 292px; */
     position: absolute;
-    margin-top: -151px;
+    margin-top: -157px;
     color: white;
     margin-left: 40px
 }
@@ -250,6 +260,17 @@ letter-spacing: 2px;
     filter: brightness(0) invert(1);
 }
 
+.active-page{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+    
+.active-page:hover{
+    color: darkgray;
+}
+
+
 .page{
     color: #fff;
     font-size: 12px;
@@ -313,7 +334,7 @@ letter-spacing: 2px;
 }
 
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 700px){
     .photo-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -331,6 +352,12 @@ letter-spacing: 2px;
 .header{
     width: auto;
     flex-direction: row;
+}
+
+.header-text{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .header-menu{
@@ -437,6 +464,7 @@ letter-spacing: 2px;
 
 .left-text{
     gap: 104px;
+    align-items: flex-end;
 }
 
 .copyright-date{
@@ -455,7 +483,7 @@ letter-spacing: 2px;
 }
 
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1300px){
     .header{
         gap: 252px;
     }
@@ -495,6 +523,7 @@ letter-spacing: 2px;
 
     .desktop-photo{
         display: block;
+        height: 100%;
     }
 
     .running-free{
@@ -510,9 +539,10 @@ letter-spacing: 2px;
        transition: 0.2s;
        padding-bottom: 15px;
        background: linear-gradient(90deg,#FFC593 ,#BC7198 ,#5A77FF );
+    } 
+     
+    .photo-text{
+        margin-left: 40px;
     }
-    
-    
-    
   
 }
