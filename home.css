@@ -17,27 +17,176 @@ body {
     flex-direction: column;
 }
 
-.logo_menu_div {
+.one_div {
     display: flex;
-    height: 72px;
-    justify-content: space-between;
-    background-color: white;
+    flex-wrap: wrap;
 }
 
-.logo_div {
-    padding-left: 24px;
-    margin-top: 28px;
+.button_div {
+    border: 0px;
+    background-color: #ffffff;
 }
 
 .menu_div {
     padding-right: 24px;
     margin-top: 25px;
+
+}
+
+
+
+/* .menu_active_div {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 44px;
+    padding: 32px 0px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    z-index: 1;
+} */
+.menu-list {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 60px;
+    padding: 32px 0px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.menu-button,
+.close-button {
+    border: 0px;
+    padding: 33px;
+    background-color: white;
+}
+
+/* .close_button {
+    display: none;
+} */
+
+/* 
+.close_button.active {
+    display: block;
+} */
+
+.close-button {
+    display: none;
+}
+
+.close-button .active {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.tablet_div {
+    display: none;
+}
+
+.tablet_div1 {
+    display: none;
+}
+
+tablet_div2 {
+    display: none;
+}
+
+.tablet_div3 {
+    display: none;
+}
+
+.desktop_div {
+    display: none;
+}
+
+.desktop_div1 {
+    display: none;
+}
+
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pages a {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.active {
+    display: flex;
+}
+
+.line {
+    border: 0.5px solid rgb(0, 0, 0, 0.25);
+}
+
+.invite {
+    height: 48px;
+    width: 310px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    background-color: #000000;
+    cursor: pointer;
+    border: none;
+}
+
+.logo_menu_div {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo_div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.photo_div {
+    display: flex;
+    padding-left: 25px;
 }
 
 .text_div {
     height: 100%;
     background-color: #000000;
     padding-left: 33px;
+}
+
+.magic_line {
+    position: absolute;
+    width: 128px;
+    height: 6px;
+    background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+
 }
 
 .heading_1 {
@@ -99,7 +248,7 @@ body {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-    letter-spacing: 3.33333px;
+    letter-spacing: 8.33333px;
     text-transform: uppercase;
     color: #000000;
     margin-top: 72px;
@@ -198,6 +347,7 @@ body {
     position: relative;
     background-image: url(./assets/stories/mobile/mountains.jpg);
 }
+
 
 .content_0 {
     display: flex;
@@ -641,9 +791,11 @@ body {
     align-items: center;
     color: white;
     margin-top: 50px;
+    gap: 20px;
+    text-decoration: none;
 }
 
-.home {
+.home_text {
     Font-family: DM Sans;
     Font-style: Bold;
     font-weight: 700;
@@ -651,9 +803,11 @@ body {
     Line-height: 16px;
     Line-height: 100%;
     letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
 }
 
-.stories {
+.home_text1 {
     Font-family: DM Sans;
     Font-style: Bold;
     font-weight: 700;
@@ -661,9 +815,11 @@ body {
     Line-height: 16px;
     Line-height: 100%;
     letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
 }
 
-.features {
+.home_text2 {
     Font-family: DM Sans;
     Font-style: Bold;
     font-weight: 700;
@@ -671,9 +827,11 @@ body {
     Line-height: 16px;
     Line-height: 100%;
     letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
 }
 
-.pricing {
+.home_text3 {
     Font-family: DM Sans;
     Font-style: Bold;
     font-weight: 700;
@@ -681,6 +839,8 @@ body {
     Line-height: 16px;
     Line-height: 100%;
     letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
 }
 
 .text_div11 {
@@ -719,4 +879,386 @@ body {
     Line-height: 20px;
     Line-height: 100%;
     opacity: 50.25%;
+}
+
+@media (min-width: 768px) {
+
+    .photo_div {
+        display: none;
+    }
+
+    .photo_div1 {
+        display: none;
+    }
+
+    .photo_div3 {
+        display: none;
+    }
+
+    .tablet_div {
+        display: flex;
+    }
+
+    .tablet_div1 {
+        display: flex;
+    }
+
+    .tablet_div2 {
+        display: flex;
+    }
+
+    .tablet_div3 {
+        display: flex;
+    }
+
+    .main_div {
+        display: flex;
+        width: 100%;
+    }
+
+    .logo_menu_div {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        padding-top: 26px;
+        padding-bottom: 28px;
+    }
+
+    .logo_div {
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+        width: unset;
+
+    }
+
+    .menu-list {
+        position: unset;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+        padding: 0px;
+
+    }
+
+    .line {
+        display: none;
+    }
+
+
+    .menu-button {
+        display: none;
+    }
+
+
+
+    .pages {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        width: unset;
+        padding-right: 34px;
+    }
+
+    .pages a {
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding-left: 30px;
+    }
+
+    .invite {
+        width: 158px;
+        height: 40px;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+
+    .one_div {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+    }
+
+    .text_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 54px 0;
+        width: 100%;
+    }
+
+    .magic_line {
+        width: 6px;
+        height: 304px;
+        margin-top: 0px;
+        margin-left: -54px;
+    }
+
+    .heading_1 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 173px;
+    }
+
+    .paragraph_1 {
+        width: 387px;
+        height: 75px;
+        font-size: 15px;
+    }
+
+
+    .text_arrow_div1 {
+        margin-bottom: 173px;
+    }
+
+    .second_div {
+        display: flex;
+    }
+
+    .white_div1 {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding-left: 54px;
+    }
+
+
+    .heading_3 {
+        width: 387px;
+        height: 144px;
+        font-size: 40px;
+        margin-top: 136px;
+        margin-bottom: 21px;
+    }
+
+    .paragraph_2 {
+        width: 387px;
+        height: 100px;
+        line-height: 25px;
+        font-size: 15px;
+        opacity: 60%;
+    }
+
+    .third_div {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .white_div2 {
+        width: 100%;
+        height: 100%;
+        padding-left: 54px;
+    }
+
+    .heading_5 {
+        width: 396px;
+        height: 96px;
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 160px;
+        margin-bottom: 21px;
+    }
+
+    .paragraph_3 {
+        width: 387px;
+        height: 100px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+
+    .fourth_div {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container_0 {
+        background-repeat: no-repeat;
+        height: 500px;
+        background-size: cover;
+        box-sizing: border-box;
+        width: 50%;
+        background-position: center;
+        padding: 372px 0 40px 33px;
+    }
+
+    .content_0 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .heading_7 {
+        width: 305px;
+        height: 25px;
+    }
+
+    .container_1 {
+        background-repeat: no-repeat;
+        height: 500px;
+        background-size: cover;
+        box-sizing: border-box;
+        width: 50%;
+        background-position: contain;
+        padding: 359px 0px 40px 28px;
+    }
+
+
+    .fivth_div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container_2 {
+        display: flex;
+        padding: 301px 0 35px 34px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .content_2 {
+        margin-right: 42px;
+    }
+
+    .container_3 {
+        padding: 300px 0px 43px 27px;
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .content_3 {
+        margin-right: 42px;
+    }
+
+    .text_arrow_div7 {
+        gap: 160px;
+    }
+
+    .linear_div_3 {
+        width: 294px;
+    }
+
+    .whole_responsive {
+        height: 25px;
+    }
+
+    .text_div_8 {
+        width: 457px;
+        height: 50px;
+    }
+
+    .no_limit {
+        height: 25px;
+    }
+
+    .text_div_9 {
+        width: 457px;
+        height: 50px;
+    }
+
+    .available_text {
+        height: 25px;
+    }
+
+    .text_div_10 {
+        width: 457px;
+        height: 50px;
+    }
+
+    .black_div {
+        display: flex;
+        flex-direction: row;
+        height: 284px;
+    }
+
+    .paragraphs_div {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 72px;
+        margin-top: 16px;
+    }
+
+    .imgs_div {
+        display: flex;
+        gap: 13px;
+    }
+
+    .imgs_paragraph_div {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 72px;
+    }
+
+    .max_div {
+        display: flex;
+        align-items: center;
+    }
+
+
+
+}
+
+@media (min-width: 1440px) {
+    .logo_menu_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 72px;
+
+    }
+
+    .logo_div {
+        margin-left: 50px;
+    }
+
+    .photo {
+        width: 142px;
+        height: 16px;
+    }
+
+    .menu-list {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+    }
+
+
+    .pages a {
+        width: 60px;
+        height: 16px;
+    }
+
+    .pages {
+        margin-left: 170px;
+    }
+
+    .tablet_div {
+        display: none;
+    }
+
+    .desktop_div {
+        display: flex;
+    }
+
+    .desktop_div1 {
+        display: flex;
+    }
+
+    .tablet_div1 {
+        display: none;
+    }
+
+    .tablet_div3 {
+        display: none;
+    }
+
+    .desktop_div3 {
+        display: flex;
+    }
 }
